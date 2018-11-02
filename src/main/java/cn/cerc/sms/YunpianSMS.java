@@ -50,6 +50,12 @@ public class YunpianSMS {
         return this.send(mobile, text);
     }
 
+    /**
+     * 云片短信发送
+     * 
+     * @param mobile 接收者手机号
+     * @param text   文本内容
+     */
     public boolean send(String mobile, String text) {
         // 生成调用参数
         Map<String, String> params = new HashMap<String, String>();
