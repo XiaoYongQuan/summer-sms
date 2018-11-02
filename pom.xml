@@ -3,10 +3,10 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>cn.cerc</groupId>
     <artifactId>summer-mis</artifactId>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
     <version>1.0.0</version>
     <properties>
-        <cn.cerc.summer.version>1.5.0</cn.cerc.summer.version>
+        <cn.cerc.summer.version>1.6.1</cn.cerc.summer.version>
     </properties>
     <build>
         <plugins>
