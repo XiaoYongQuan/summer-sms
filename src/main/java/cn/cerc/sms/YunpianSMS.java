@@ -41,7 +41,7 @@ public class YunpianSMS {
     private String message;
     private boolean sendVoice = false;
 
-    YunpianSMS(String apiKey) {
+    public YunpianSMS(String apiKey) {
         this.apikey = apiKey;
     }
 
@@ -53,8 +53,10 @@ public class YunpianSMS {
     /**
      * 云片短信发送
      * 
-     * @param mobile 接收者手机号
-     * @param text   文本内容
+     * @param mobile
+     *            接收者手机号
+     * @param text
+     *            文本内容
      */
     public boolean send(String mobile, String text) {
         // 生成调用参数
